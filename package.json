@@ -1,0 +1,37 @@
+{
+  "name": "@johnwayne/nft-license",
+  "version": "1.0.0",
+  "description": "NFT licensing terms for JohnWayne (B. John Werler) digital assets",
+  "main": "index.js",
+  "files": [
+    "lib/",
+    "licenses/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "echo \"Ready to publish NFT licensing package\""
+  },
+  "keywords": [
+    "nft",
+    "license",
+    "digital-assets",
+    "gaming",
+    "metaverse",
+    "johnwayne"
+  ],
+  "author": "JohnWayne (B. John Werler)",
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/nft-license.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/nft-license/issues"
+  },
+  "homepage": "https://github.com/yourusername/nft-license#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
