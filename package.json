@@ -25,12 +25,12 @@
   "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/nft-license.git"
+    "url": "git+https://github.com/bw4166/nft-license.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/nft-license/issues"
+    "url": "https://github.com/bw4166/nft-license/issues"
   },
-  "homepage": "https://github.com/yourusername/nft-license#readme",
+  "homepage": "https://github.com/bw4166/nft-license#readme",
   "engines": {
     "node": ">=14.0.0"
   }
