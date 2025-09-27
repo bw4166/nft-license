@@ -1,5 +1,28 @@
 # @johnwayne/nft-license
 
+Professional NFT licensing terms package for JohnWayne (B. John Werler) digital assets. Provides standardized licensing for 3D models, rigged characters, and game-ready assets.
+
+## Why This Package?
+
+- ✅ **Legal Clarity**: Clear terms for both creators and buyers
+- ✅ **Automated Generation**: Programmatic license text creation
+- ✅ **Dual Licensing**: Non-commercial and commercial options
+- ✅ **Game-Ready**: Specifically designed for 3D/gaming NFTs
+- ✅ **Copyright Protection**: Maintains creator rights
+
+## Installation
+
+```bash
+npm install git+https://github.com/bw4166/nft-license.git
+```
+
+Or for development:
+```bash
+git clone https://github.com/bw4166/nft-license.git
+cd nft-license
+npm install
+```t-license
+
 NFT licensing terms package for JohnWayne (B. John Werler) digital assets.
 
 ## Installation
@@ -81,10 +104,34 @@ Returns formatted license text as a string.
 
 All digital assets and licensing terms are protected by copyright law.
 
-## Repository
+## Use Cases
 
-Update the repository URLs in `package.json` to match your actual Git repository.
+This package is perfect for:
+- **NFT Marketplaces**: Standardized licensing for 3D assets
+- **Game Developers**: Clear terms for using purchased NFT models
+- **3D Artists**: Professional licensing framework
+- **Legal Compliance**: Automated license generation
+
+## Integration Examples
+
+### In NFT Metadata
+```json
+{
+  "name": "JohnWayne Character #001",
+  "external_url": "https://github.com/bw4166/nft-license",
+  "license": "https://raw.githubusercontent.com/bw4166/nft-license/main/licenses/STANDARD-LICENSE.md"
+}
+```
+
+### In Smart Contracts
+Reference the license URLs in your NFT contract metadata for automatic compliance.
+
+## Contributing
+
+Issues and pull requests welcome for improving the licensing terms or API.
 
 ## License
 
-SEE LICENSE IN LICENSE file.
+MIT License for the package code. See LICENSE file.
+
+**Note**: The NFT licensing terms themselves (in `/licenses/`) are separate legal documents.
